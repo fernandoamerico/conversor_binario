@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #171717;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 1280px;
+    margin: auto;
+}
+
+.titulo {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    color: chartreuse;
+}
+
+.conversor {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.conversor input[type=number] {
+    font-size: 20px;
+    color: #171717;
+    background-color: chartreuse;
+    outline: none;
+    margin: 0;
+    margin-top: 10px;
+    border: none;
+    width: 200px;
+    height: 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
